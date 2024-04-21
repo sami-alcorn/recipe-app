@@ -1,0 +1,99 @@
+/*removed default margin and padding, changed background color, and font family*/
+body {
+  margin: 0; 
+  padding: 0; 
+  background-color: #04414f; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*sets min height for background, styles background color, font color*/
+#root {
+  background-color: #04414f;
+  color: white;
+  min-height: 100vh
+}
+/*sets width, top margin and border for homepage and centers items*/
+ #home-container {
+  width: 79%;
+  margin-top: 1.5rem;
+  align-items: center;
+  border: solid;
+  border-color: white;
+  border-radius: 1rem;
+}
+/*centers image on home page*/
+ #home-image-div {
+  text-align: center;
+}
+ /*margin and border for image on homepage*/
+ #home-image {
+  margin: 1.5rem;
+  border: solid;
+  border-color: white;
+  border-radius: 1rem;
+}
+/*centers text and input of search, adds padding, set display flex*/
+ #search-form {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #04414f;
+  padding: 2rem;
+  padding-bottom: 1rem;
+  padding-top: 3rem;
+}
+/*left margin for search input*/
+#search-input{
+  margin-left: 2rem;
+}
+/*padding and margin for search results div*/
+#search-results-div {
+  margin: 2rem;
+  padding: 1rem;
+}
+/*centers recipe info, sets width of card and padding*/
+#results-info-card {
+  width: 45%;
+  padding: 1rem;
+  padding-bottom: .5rem;
+  text-align: center;
+  align-items: center;
+}
+/*border and margin for search results image*/
+#results-image {
+  border: solid;
+  border-color: black;
+  border-radius: .5rem;
+  margin-bottom: 7px;
+}
+/*margin for add recipe button*/
+#add-recipe-button {
+  margin-top: 10px;
+}
+/*margin and padding for recipe box*/
+#recipe-box {
+  margin-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+/*margin for recipe cards*/
+#recipe-card {
+  margin: 1rem;
+}
+/*margins for save notes button*/
+#save-button {
+  margin-top: .75rem;
+  margin-right: .75rem;
+}
+/*margin and colors for delete button*/
+#delete-button {
+  margin-top: .75rem;
+  background-color: #b6013e;
+  color: white;
+}
+/*centers and underlines h3*/
+h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+
